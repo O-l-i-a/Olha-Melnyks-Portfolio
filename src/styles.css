@@ -48,6 +48,8 @@ a:hover{
 .main-description{
     color: #666E76;
     font-size: 14px;
+    display:block;
+    margin: 10px auto;
 }
 button{
     border:0;
