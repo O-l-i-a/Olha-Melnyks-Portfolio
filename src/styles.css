@@ -41,6 +41,7 @@ a:hover{
     margin:10px auto;
     background: var(--primary);
     border-left: 30px solid var(--primary);
+    border-right: 30px solid var(--primary);
 }
 .vertical-center{
     vertical-align: middle;
@@ -70,4 +71,54 @@ button{
 .description{
     color: #666E76;
     font-size: 13px;
+}
+.row-edit{
+    margin: 20px 20px 15px 0;
+}
+@media (min-width: 576px ) {
+    .img-me{
+        position: relative;
+        top:80px;
+    }
+}
+@media(min-width:768px){
+    .img-me{
+        position: static;
+    }
+
+}
+
+@media (max-width: 782px) {
+    .inhalt{
+        background: none;
+        margin:5px auto;
+        border-left:0px solid var(--primary);
+        border-right: 0px solid var(--primary);
+    }   
+    body{
+        background:var(--primary);
+        text-align: center;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center !important;
+    }
+    .w-5, .w-2{
+        position:relative;
+        top:15px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .dn{
+        display:none;
+        
+    }
+    .row-edit{
+        margin-top:0px;
+        margin-bottom:20px;
+    }
 }
