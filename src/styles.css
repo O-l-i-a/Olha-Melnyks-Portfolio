@@ -63,6 +63,9 @@ button{
     padding: 10px 15px;
     
 }
+.hightlight{
+    background: var(--lila);
+}
 .row-edit{
     margin-top:0px;
     margin-bottom:20px;
