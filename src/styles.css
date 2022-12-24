@@ -20,7 +20,7 @@ a:hover{
 .bg-custom{
     background:var(--primary) ;
 }
-.w-1{
+nav img{
     width: 20px;
     position: relative;
     bottom: 2px;
@@ -61,7 +61,6 @@ button{
     border:0;
     border-radius: 25px;
     padding: 10px 15px;
-    
 }
 .hightlight{
     background: var(--lila);
@@ -70,15 +69,25 @@ button{
     margin-top:0px;
     margin-bottom:20px;
 }
+.linkedin-button:hover,
 .contact-button{
     background-color: var(--primary);
     color:white;
     border: 1px solid;
 }
+.contact-button:hover,
 .linkedin-button{
     background-color: var(--lila);
     color: white;
-    border: 2px var(--lila) solid;
+    border: 1px var(--lila) solid;
+}
+.contact-button:hover,
+.linkedin-button:hover{
+    transition: all 150ms ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 5px 15px 0px, rgba(255, 255, 255, 0.06) 0px 0px 0px 5px;;
+}
+.active{
+    color:var(--lila) !important;
 }
 .description{
     color: #666E76;
