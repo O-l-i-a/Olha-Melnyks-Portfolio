@@ -109,6 +109,10 @@ button{
     display: flex;
     justify-content: center;
 }
+.centered2{
+    display: block;
+    margin: 10px auto;
+}
 @media (min-width: 576px ) {
     .img-me{
         position: relative;
